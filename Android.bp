@@ -444,7 +444,7 @@ cc_prebuilt_binary {
 android_app_import {
 	name: "FingerprintExtensionService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk",
+	apk: "lavender-proprietary/vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -455,7 +455,7 @@ android_app_import {
 android_app_import {
 	name: "QFingerprintService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
+	apk: "lavender-proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
